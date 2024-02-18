@@ -1,0 +1,14 @@
+.nav {
+    width: 310px;
+    height: 774px;
+    background-color: #fbfbfb;
+    padding: 25px 25px;
+    &__categories-title{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

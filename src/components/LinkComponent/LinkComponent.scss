@@ -1,0 +1,16 @@
+.category{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    &__link{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #3D3D3D;
+    }
+}
