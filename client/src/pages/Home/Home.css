@@ -1,0 +1,11 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home {
+  max-width: 1200px;
+  margin: auto;
+}/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,107 @@
+.banners {
+    height: 450px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.banner-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 450px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f5f5f580;
+    margin: 50px auto;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 45px;
+    }
+    &__images {
+        background-image: url(./bannerimg.png);
+        width: 482px;
+        height: 452px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+    &__title {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__greeting {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: #3d3d3d;
+    }
+    &__text {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #727272;
+    }
+    &__button {
+        width: 140px;
+        height: 40px;
+        border-radius: 6px;
+        background-color: #46a358;
+        cursor: pointer;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        &:hover {
+            background-color: #349445;
+          }
+          
+        &:active {
+            background-color: #1e7f2f;
+            transform: scale(0.95);
+            box-shadow: 0 0 5px #46A358;
+            ;
+        }
+          
+    }
+}
+.banner-2 {
+    height: 450px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: red;
+    margin: 50px auto;
+    position: relative;
+}
+.banner-3 {
+    height: 450px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: yellow;
+    margin: 50px auto;
+    position: relative;
+}

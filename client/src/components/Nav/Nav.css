@@ -1,0 +1,28 @@
+.nav {
+  width: 310px;
+  height: 774px;
+  background-color: #fbfbfb;
+  padding: 25px 25px;
+  margin-top: 70px;
+}
+.nav__categories-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.nav__categories {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  cursor: pointer;
+}
+.nav__categories:active {
+  color: green;
+  font-size: 15px;
+  font-weight: 700;
+}/*# sourceMappingURL=Nav.css.map */

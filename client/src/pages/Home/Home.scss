@@ -1,0 +1,15 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    margin-top: auto;
+}

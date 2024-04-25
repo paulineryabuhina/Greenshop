@@ -1,0 +1,106 @@
+.banners {
+  height: 450px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 450px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.5019607843);
+  margin: 50px auto;
+}
+.banner-1__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.banner-1__description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 45px;
+}
+.banner-1__images {
+  background-image: url(./bannerimg.png);
+  width: 482px;
+  height: 452px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+.banner-1__title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-1__greeting {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #3d3d3d;
+}
+.banner-1__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #727272;
+}
+.banner-1__button {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #46a358;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-1__button:hover {
+  background-color: #349445;
+}
+.banner-1__button:active {
+  background-color: #1e7f2f;
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #46A358;
+}
+
+.banner-2 {
+  height: 450px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: red;
+  margin: 50px auto;
+  position: relative;
+}
+
+.banner-3 {
+  height: 450px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: yellow;
+  margin: 50px auto;
+  position: relative;
+}/*# sourceMappingURL=Banner.css.map */
